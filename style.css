@@ -1,0 +1,148 @@
+body {
+	margin: 0px;
+}
+
+
+.header-container {
+	background-color: #000;
+    height: 78px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.footer-container {
+	background-color: #000;
+	height: 78px;
+	padding: 5px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: 1.5fr 1fr 1.5fr 0.5fr;
+	grid-gap: 30px;
+	font-size: 15px;
+	text-align: center;
+}
+
+p {
+	color: #000;
+	font-family: 'AvenirBook';
+}
+
+.footer-container p {
+	color: #fff;
+	font-family: 'AvenirBook';
+}	
+
+.green-color {
+	color: #00AFAF;
+}
+
+
+.header-container img {
+	height: 50px;
+}
+
+.info-top-container {
+	width: 100%;
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+	grid-gap: 50px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	align-items: self-end;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+	.info-top-container {
+		display: grid !important;
+		grid-template-columns: 1fr !important;
+	    grid-gap: 0px !important;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.info-top-container {
+		display: flex;
+		flex-direction: column;
+		padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.top-info.column-left, .top-info.column-right {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.footer-container {
+		display: flex;
+		flex-direction: column;
+		height: auto
+;			}
+}
+
+.top-info.column-right {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+	align-items: center;
+}
+
+.widget-body-container {
+	width: 100%;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.heading1 {
+	font-size: 58px;
+	line-height: 1.3em;
+	font-family: 'Futura'
+}
+
+.phone-size {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.facility-column img {
+	max-width: 20px;
+	color: #00AFAF
+}
+
+@font-face {
+    font-family: 'AvenirBook';
+    src: url('fonts/AvenirBook/AvenirLTStd-Book.eot');
+    src: url('fonts/AvenirBook/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirBook/AvenirLTStd-Book.woff2') format('woff2'),
+        url('fonts/AvenirBook/AvenirLTStd-Book.woff') format('woff'),
+        url('fonts/AvenirBook/AvenirLTStd-Book.ttf') format('truetype'),
+        url('fonts/AvenirBook/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+	@font-face {
+font-family: 'Futura';
+src: url('fonts/FuturaCondensedBold/Futura-CondensedBold.eot');
+src: url('fonts/FuturaCondensedBold/Futura-CondensedBold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaCondensedBold/Futura-CondensedBold.woff2') format('woff2'),
+    url('fonts/FuturaCondensedBold/Futura-CondensedBold.woff') format('woff'),
+    url('fonts/FuturaCondensedBold/Futura-CondensedBold.ttf') format('truetype'),
+    url('fonts/FuturaCondensedBold/Futura-CondensedBold.svg#Futura-CondensedBold') format('svg');
+font-weight: bold;
+font-style: normal;
+font-display: swap;
+}
